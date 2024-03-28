@@ -5,9 +5,8 @@
 
 ## Технологии
 * Python
-* Flask
-* WTForms
-* SQLAlchemy
+* Requests
+* pyTelegramBotAPI 
 
 ## Как запустить
 1. Жмём /start
