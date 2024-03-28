@@ -102,7 +102,7 @@ class Bot:
             params = {
                 "access_token": access_token,
                 "domain": domain,
-                "count": 50,
+                "count": 1,
                 "offset" : self.offset,
                 "v": 5.199
             }
@@ -135,7 +135,7 @@ class Bot:
             self.response()
             self.wall = self.wall_base_read()
             if self.offset < 500:
-                self.offset += 100
+                self.offset += 1
             elif self.offset >= 500:
                 self.offset = 0
             time.sleep(900)
